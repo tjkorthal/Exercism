@@ -33,7 +33,7 @@ export class List {
   }
 
   toArray() {
-    if (!this.head) { return [] }
+    // if (!this.head) { return [] }
     const array = [];
     let element = this.head
     while (element) {
